@@ -1,0 +1,10 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidmlrYXMiLCJlbWFpbCI6InZpa2FzdmVybWE4NDUyN0BnbWFpbC5jb20iLCJpYXQiOjE2ODk2NzQyNjQsImV4cCI6MTY4OTY4MTQ2NH0.jE1bFKKLTVwtAqM-1Z8Hz0isI0xSgbRAv6_1imFpB10
+
+{
+    fieldname: 'file',
+    originalname: 'B-3422.jpg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    buffer: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff e2 01 d8 49 43 43 5f 50 52 4f 46 49 4c 45 00 01 01 00 00 01 c8 00 00 00 00 04 30 00 00 ... 435447 more bytes>,
+    size: 435497
+  }
