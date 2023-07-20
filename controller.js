@@ -1,9 +1,9 @@
 const { USERS } = require('./DB')
 const ImageKit = require("imagekit");
 const imagekit = new ImageKit({
-    publicKey: "public_CwZ++GnDXtHbEk7aoJGUHZYT53A=",
-    privateKey: "private_pEQqkDbbqJR+ZvEgiN4zA/IBPeY=",
-    urlEndpoint: "https://ik.imagekit.io/tv02mvd9i"
+    publicKey: "",
+    privateKey: "",
+    urlEndpoint: ""
 })
 module.exports = class APIS {
     message = "This is Default message";
