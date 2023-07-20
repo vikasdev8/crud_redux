@@ -1,3 +1,4 @@
+Before starting this app Pls add config keys into ./controller.js for Imagekit. setup cors in ./index.js a per your local server
 # crud_redux
 The frontend of Respondary is built using React, a widely embraced JavaScript library known for its component-based architecture, modularity, and reusability. The intuitive user interface of Respondary is crafted using Chakra UI, a sleek and customizable React UI framework. The integration of React Redux further enhances the application's performance, providing seamless state management across the entire app.
 
