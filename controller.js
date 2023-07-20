@@ -11,7 +11,7 @@ module.exports = class APIS {
 
     response(res, msg, code = this.status, data=null) {
         return res.status(code).json({
-            messgae: msg ? msg : this.message,
+            msg: msg ? msg : this.message,
             data
         })
     }
@@ -67,7 +67,7 @@ module.exports = class APIS {
 
     async uploadImage(req, res, next) {
         try {
-            const { name, email } = req.user;
+            const { name } = req.user;
 
             const Files = req.files;
 

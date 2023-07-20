@@ -39,7 +39,7 @@ users.methods.createToken = function (res, user) {
         console.log('check[39]',user);
         const token =  jwt.sign({name:user.name, email:user.email},'this_is_private_key_for_crud',{expiresIn:"2h"})
         console.log('check[40]',token);
-        res.status(200).cookie(`token`, token ,{ expires: new Date(Date.now() + 2*60*60*1000), httpOnly:true}).json({
+        res.status(200).cookie(`token`, token ,{ expires: new Date(Date.now() + 2*60*60*1000), httpOnly:true, path:"/"}).json({
             success:true
         })
     } catch (error) {
